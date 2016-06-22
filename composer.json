@@ -13,7 +13,7 @@
         "php": ">=5.4.0",
         "illuminate/support": "5.0.x|5.1.x|5.2.x",
         "studio-42/elfinder": "~2.1.10",
-        "barryvdh/elfinder-flysystem-driver": "^0.1.4|^0.2",
+        "barryvdh/elfinder-flysystem-driver": "dev-fix-open-folder",
         "league/flysystem": "^1.0",
         "league/flysystem-cached-adapter": "^1.0"
     },
@@ -27,5 +27,11 @@
             "dev-master": "0.3-dev"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:AktuaLabs/elfinder-flysystem-driver.git"
+        }
+    ]
 }
